@@ -6,8 +6,8 @@ android {
         applicationId 'com.humblecarrotstudios.android.drwords'
         minSdkVersion 16
         targetSdkVersion 28
-        versionCode 5
-        versionName "1.1"
+        versionCode 6
+        versionName "1.11"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
     buildTypes {

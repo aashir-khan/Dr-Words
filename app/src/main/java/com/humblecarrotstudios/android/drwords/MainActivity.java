@@ -137,7 +137,7 @@ public class MainActivity extends AppCompatActivity implements LoaderManager
                 return true;
             case R.id.privacy_policy_item:
 
-                webpage = Uri.parse("https://sites.google.com/view/drwords/home/privacy-policy");
+                webpage = Uri.parse("https://sites.google.com/view/drwords/privacy-policy");
                 intent = new Intent(Intent.ACTION_VIEW, webpage);
                 if (intent.resolveActivity(getPackageManager()) != null) {
                     startActivity(intent);
